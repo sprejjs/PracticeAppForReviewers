@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PracticeAppForReviewers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_meadia_streamer">Media Streamer</string>
+    <string name="app_super_duo">Super Duo</string>
+    <string name="app_bacon_reader">Bacon Reader</string>
+    <string name="app_sunshine_wear">Sunshine Wear</string>
+    <string name="app_ant_terminator">Ant Terminator</string>
+    <string name="app_capstone">Capstone</string>
+</resources>

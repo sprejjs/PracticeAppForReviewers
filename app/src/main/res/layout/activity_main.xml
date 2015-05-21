@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        style="@style/ButtonPrimary"
+        android:onClick="openMediaStreamer"
+        android:text="@string/app_meadia_streamer"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="openSuperDuo"
+        style="@style/ButtonPrimary"
+        android:text="@string/app_super_duo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="openBaconReader"
+        style="@style/ButtonPrimary"
+        android:text="@string/app_bacon_reader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="openSunshineWear"
+        style="@style/ButtonPrimary"
+        android:text="@string/app_sunshine_wear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="openAntTerminator"
+        style="@style/ButtonPrimary"
+        android:text="@string/app_ant_terminator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="openCapstone"
+        style="@style/ButtonPrimary"
+        android:text="@string/app_capstone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
